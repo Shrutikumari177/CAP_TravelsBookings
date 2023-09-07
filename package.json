@@ -15,7 +15,7 @@
   },
   "devDependencies": {
     "@sap/eslint-plugin-ui5-jsdocs": "^2.0.5",
-    "@sap/ux-specification": "^1.108.1",
+    "@sap/ux-specification": "^1.108.13",
     "@sapui5/ts-types": "^1.92.2",
     "axios": "^0",
     "chai": "^4.3.0",
@@ -29,7 +29,8 @@
   "scripts": {
     "start": "cds run",
     "test": "jest --runInBand",
-    "watch-anubhavflexapp": "cds watch --open anubhavflexapp/webapp/index.html?sap-ui-xx-viewCache=false"
+    "watch-anubhavflexapp": "cds watch --open anubhavflexapp/webapp/index.html?sap-ui-xx-viewCache=false",
+    "watch-fioriproject": "cds watch --open fioriproject/webapp/index.html?sap-ui-xx-viewCache=false"
   },
   "cds": {
     "requires": {
@@ -88,6 +89,7 @@
   "license": "SAP SAMPLE CODE LICENSE",
   "private": true,
   "sapux": [
+    "app/anubhavflexapp",
     "app/anubhavflexapp"
   ]
 }

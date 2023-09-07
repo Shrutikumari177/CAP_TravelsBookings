@@ -1,0 +1,33 @@
+<mvc:View controllerName="fioriproject.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+        <Table id="table" items="{/Travel}">
+         <columns>
+          <Column >
+           <Text id="text1" text="TravelID"></Text>
+          </Column>
+          <Column >
+           <Text id="text2" text="BeginDate"></Text>
+          </Column>
+          <Column >
+           <Text id="text3" text="EndDate"></Text>
+          </Column>
+          <Column >
+           <Text id="text4" text="BookingFee"></Text>
+          </Column>
+         </columns>
+
+         <items>
+          <ColumnListItem type="Navigation" press="onNext">
+            <cells>
+             <Text id="field1" text="{TravelID}"></Text>
+             <Text id="field2" text="{BeginDate}"></Text>
+             <Text id="field3" text="{EndDate}"></Text>
+             <Text id="field4" text="{BookingFee}"></Text>
+            </cells>
+          </ColumnListItem>
+         </items>
+        </Table>
+    </Page>
+</mvc:View>

@@ -1,4 +1,2 @@
 
-using from './anubhavflexapp/annotations';
-using from './capabilities';
-using from './value-helps';
+using from './fioriproject/annotations';
